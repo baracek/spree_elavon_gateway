@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_elavon_gateway'
-  s.version     = '0.50.0'
+  s.version     = '1.1.3'
   s.summary     = 'Spree Extension Elavon Gateway'
   s.description = 'This requires that spree run with automatic capture run Spree::Config.set( :auto_capture, True ) on the console'
   s.required_ruby_version = '>= 1.8.7'
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency('spree_core', '>= 0.50.0')
+  s.add_dependency('spree_core', '~> 1.1.3')
 end
